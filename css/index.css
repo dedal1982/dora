@@ -1,0 +1,297 @@
+@import url("https://fonts.cdnfonts.com/css/century-gothic-paneuropean");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+.page {
+  background: #323232;
+}
+.page__content {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  max-width: 1440px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  overflow: hidden;
+}
+.promo {
+  width: 100%;
+  height: 553px;
+  position: relative;
+  background: url(../images/promo.png);
+}
+.promo button {
+  width: 256px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.39px;
+  border-radius: 51px;
+  position: absolute;
+  bottom: 89px;
+  left: 334px;
+  background: #affe2c;
+}
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+.header__wrapper {
+  max-width: 1234px;
+  width: 100%;
+  margin: 49px auto 0 94px;
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.header__logo h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.43px;
+  color: #affe2c;
+}
+.header__logo p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.71px;
+  color: #ffffff;
+}
+.header__wrapper ul {
+  display: flex;
+  align-items: center;
+  gap: 137px;
+  margin-left: 107px;
+  margin-right: 205px;
+  margin-top: 20px;
+}
+.header__wrapper ul a {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18.39px;
+  color: #ffffff;
+}
+
+.header__phone {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18.15px;
+  color: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header__phone p {
+  color: #affe2c;
+}
+.about {
+  width: 100%;
+  background: #323232;
+}
+.about__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+.about__text {
+  max-width: 578px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 94px;
+  margin-top: 111px;
+}
+.about__text h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42.91px;
+  color: #adf94e;
+}
+.about__text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.39px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.about__text button {
+  width: 256px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18.39px;
+  border-radius: 51px;
+  margin: auto 101px 0 auto;
+  background: #affe2c;
+}
+.about__image {
+  width: 639px;
+  height: 472px;
+}
+.about__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*===destinations===*/
+.destinations {
+  width: 100%;
+  background: #323232;
+}
+.destinations__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+  box-sizing: border-box;
+}
+.destinations__wrapper h2 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42.91px;
+  color: #affe2c;
+}
+.destinations__item {
+  width: 100%;
+  padding: 16px 286px 16px 278px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+  background: #5c5c5c;
+  position: relative;
+}
+.item-img {
+  position: absolute;
+  left: 0;
+}
+.destinations__left {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+.destinations__left-img {
+  width: 262px;
+  height: 204px;
+  border-radius: 20px;
+}
+.destinations__left-img img {
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.destinations__left-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.destinations__left-text p {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.43px;
+}
+.destinations__left-text h3 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.23px;
+  color: #affe2c;
+}
+.destinations__arrow {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/arr-bg.png);
+  margin-bottom: 25px;
+}
+.footer {
+  width: 100%;
+  background: #323232;
+  padding-bottom: 40px;
+}
+.footer__wrapper {
+  width: 100%;
+  height: 107px;
+  border-radius: 40px;
+  background: #5c5c5c;
+}
+.footer__inner {
+  padding: 23px 82px 27px 225px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.footer__inner ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 5px;
+}
+.footer__phone {
+  display: flex;
+  flex-direction: column;
+  margin-left: 219px;
+  margin-right: 194px;
+  align-items: center;
+  gap: 7px;
+}
+.footer__inner a,
+.footer__inner p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.52px;
+  color: #ffffff;
+}
+.footer__inner a {
+  color: #affe2c;
+}
